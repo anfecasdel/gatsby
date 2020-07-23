@@ -13,7 +13,7 @@ export default function loSentimos() {
                 <p>Lo sentimos por esto, cuando vuelvas tu swag te estará esperando de nuevo</p>
                 <p>¡Te esperamos de vuelta, no pares de aprender!</p>
                 <span role='img' aria-label='emoji'>😥</span>
-                <Link to=''>
+                <Link to='/'>
                     <Button>Volver al catálogo</Button>
                 </Link>
             </Purchase>
