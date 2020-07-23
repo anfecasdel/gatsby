@@ -12,7 +12,7 @@ export default function loSentimos() {
                 <h2>Compra Cancelada</h2>
                 <p>Lo sentimos por esto, cuando vuelvas tu swag te estará esperando de nuevo</p>
                 <p>¡Te esperamos de vuelta, no pares de aprender!</p>
-                <span rol='img' aria-label='emoji'>😥</span>
+                <span role='img' aria-label='emoji'>😥</span>
                 <Link to=''>
                     <Button>Volver al catálogo</Button>
                 </Link>
