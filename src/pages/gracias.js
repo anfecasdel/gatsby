@@ -13,7 +13,7 @@ export default function gracias() {
                 <p>Espero que disfrutes tu swag, lucelo con orgullo</p>
                 <p>¡Te esperamos de vuelta, no pares de aprender!</p>
                 <span role='img' aria-label='emoji'>❤</span>
-                <Link to=''>
+                <Link to='/'>
                     <Button>Volver al catálogo</Button>
                 </Link>
             </Purchase>

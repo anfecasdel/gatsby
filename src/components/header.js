@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
     <nav>
       <ul>
         <MenuItem margin>
-          <Link to=''>Productos</Link>
+          <Link to='/'>Productos</Link>
         </MenuItem>
         <MenuItem margin>
           <a href="http://www.platzi.com">Platzi</a>
