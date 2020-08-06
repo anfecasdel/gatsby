@@ -40,9 +40,11 @@ export default function producDetail({
         )}
         <p>Cantidad:</p>
         <QtySelect>
-          <button onClick={() => (qty > 1 ? setQty(qty - 1) : null)}>-</button>
+          <QtyButton onClick={() => (qty > 1 ? setQty(qty - 1) : null)}>
+            -
+          </QtyButton>
           <input type="text" disabled value={qty} />
-          <button onClick={() => setQty(qty + 1)}>+</button>
+          <QtyButton onClick={() => setQty(qty + 1)}>+</QtyButton>
         </QtySelect>
         <Button>Agregar al carrito</Button>
       </div>
